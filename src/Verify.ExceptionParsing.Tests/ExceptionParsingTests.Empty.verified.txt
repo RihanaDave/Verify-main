@@ -1,0 +1,6 @@
+﻿{
+  message:
+Directory: {ProjectDirectory}
+,
+  result: {}
+}

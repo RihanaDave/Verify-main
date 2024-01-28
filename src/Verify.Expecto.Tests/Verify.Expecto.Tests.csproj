@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <SignAssembly>False</SignAssembly>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Expecto" Version="10.1.0" />
+    <PackageReference Include="FSharp.Core" Version="8.0.101" />
+    <PackageReference Include="ProjectDefaults" Version="1.0.108" PrivateAssets="all" />
+    <ProjectReference Include="..\Verify.Expecto\Verify.Expecto.csproj" />
+  </ItemGroup>
+  <Import Project="$(ProjectDir)..\Verify\buildTransitive\Verify.props" />
+  <Import Project="$(ProjectDir)..\Verify\buildTransitive\Verify.targets" />
+  <Import Project="$(ProjectDir)..\Verify.Expecto\buildTransitive\Verify.Expecto.props" />
+</Project>

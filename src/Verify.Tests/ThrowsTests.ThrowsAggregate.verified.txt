@@ -1,0 +1,14 @@
+﻿{
+  Type: AggregateException,
+  InnerExceptions: [
+    {
+      Type: Exception,
+      Message: The Message1
+    },
+    {
+      Type: Exception,
+      Message: The Message2
+    }
+  ],
+  StackTrace: at ThrowsTests.MethodThatThrowsAggregate()
+}

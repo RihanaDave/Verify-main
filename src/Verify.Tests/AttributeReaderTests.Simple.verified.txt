@@ -1,0 +1,8 @@
+﻿{
+  TargetFrameworks: net8.0;net7.0;net48,
+  TargetFrameworksInferred: net8.0;net7.0;net48,
+  ProjectDirectory: {ProjectDirectory},
+  ProjectDirectoryInferred: {ProjectDirectory},
+  SolutionDirectory: {SolutionDirectory},
+  SolutionDirectoryInferred: {SolutionDirectory}
+}

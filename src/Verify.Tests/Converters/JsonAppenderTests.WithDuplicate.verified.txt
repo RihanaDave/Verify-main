@@ -1,0 +1,8 @@
+﻿{
+  target: TheValue,
+  theData: theValue,
+  duplicate: [
+    value1,
+    value2
+  ]
+}

@@ -1,0 +1,6 @@
+﻿[
+  {
+    Property: Value,
+    Disposed: false
+  }
+]
